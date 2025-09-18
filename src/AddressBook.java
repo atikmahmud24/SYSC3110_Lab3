@@ -4,7 +4,7 @@ public class AddressBook {
     private ArrayList<BuddyInfo> totalBuddy;
 
     public AddressBook() {
-        totalBuddy = new ArrayList<>();
+        this.totalBuddy = new ArrayList<>();
     }
 
     public void addBuddy(BuddyInfo buddy) {
@@ -21,6 +21,7 @@ public class AddressBook {
         AddressBook addressBook = new AddressBook();
         addressBook.addBuddy(buddy);
         addressBook.removeBuddy(buddy);
+        System.out.println("Hello");
     }
 }
 
