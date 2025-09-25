@@ -22,6 +22,8 @@ public class AddressBook {
         addressBook.addBuddy(buddy);
         addressBook.removeBuddy(buddy);
         System.out.println("Hello, Hi");
+        System.out.println("New branch!");
+
     }
 }
 
